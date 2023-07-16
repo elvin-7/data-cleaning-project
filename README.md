@@ -10,20 +10,22 @@ In this repository, you will be reading about the steps I took in cleaning all 8
 
 ## Badly Structured Sales Data 1-4
 
+### Badly Structured Sales Data 1
+
 ![Badly Structured Sales Data 1](https://foresightbi.com.ng/wp-content/uploads/2020/05/1.jpg)
 
-##### **Badly Structured Sales Data 1**
+### Badly Structured Sales Data 2
 
 ![Badly Structured Sales Data 2](https://foresightbi.com.ng/wp-content/uploads/2020/05/2.jpg)
 
-**Badly Structured Sales Data 2**
+### Badly Structured Sales Data 3
 
 ![Badly Structured Sales Data 3](https://foresightbi.com.ng/wp-content/uploads/2020/05/3.jpg)
 
-**Badly Structured Sales Data 3**
+### Badly Structured Sales Data 4
 
 ![Badly Structured Sales Data 4](https://foresightbi.com.ng/wp-content/uploads/2020/05/4.jpg)
 
-**Badly Structured Sales Data 4**
+
 
 The first 4 datasets have really similar structures with little differences between them
