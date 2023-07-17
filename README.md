@@ -28,4 +28,12 @@ In this repository, you will be reading about the steps I took in cleaning all 8
 
 
 
-The first 4 datasets have really similar structures with little differences between them
+The first 4 datasets have really similar structures with little differences between them so I would be walking through the first and third one since I pretty much used the same steps to clean the first and second data sets and the sames ones to clean the third and fourth datasets.
+
+For the first dataset, I first imported the data into Power Query and began taking the necessary steps to clean it.
+
+![](d1_dirty_data.PNG)
+
+The first thing I did was to get rid of all the subtotals and the grand total in the dataset to avoid double counting when analyzing. I did this by removing all columns with the totals for each segment and 
+
+
