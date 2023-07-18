@@ -6,26 +6,17 @@ Data cleaning is the process of fixing or removing incorrect, corrupted, incorre
 
 Finding datasets to clean was not too difficult after a quick google search led me to [Foresight BI's dirty data samples](https://foresightbi.com.ng/microsoft-power-bi/dirty-data-samples-to-practice-on/#). 
 
-In this repository, you will be reading about the steps I took in cleaning all 8 datasets provided in the Foresight BI website.
+In this repository, you will be reading about the steps I took in cleaning 6 of the 8 datasets provided in the Foresight BI website. You can find the excel sheets with both dirty data and my solutions [here](Cleaning_data_project.xlsx)
 
-## Badly Structured Sales Data 1-4
+## Badly Structured Sales Data 1 & 3
 
 ### Badly Structured Sales Data 1
 
 ![Badly Structured Sales Data 1](https://foresightbi.com.ng/wp-content/uploads/2020/05/1.jpg)
 
-### Badly Structured Sales Data 2
-
-![Badly Structured Sales Data 2](https://foresightbi.com.ng/wp-content/uploads/2020/05/2.jpg)
-
 ### Badly Structured Sales Data 3
 
 ![Badly Structured Sales Data 3](https://foresightbi.com.ng/wp-content/uploads/2020/05/3.jpg)
-
-### Badly Structured Sales Data 4
-
-![Badly Structured Sales Data 4](https://foresightbi.com.ng/wp-content/uploads/2020/05/4.jpg)
-
 
 
 The first 4 datasets have really similar structures with little differences between them so I would be walking through the first and third one since I pretty much used the same steps to clean the first and second data sets and the sames ones to clean the third and fourth datasets.
@@ -59,3 +50,16 @@ All I had to do was select the first two columns and unpivot all other columns. 
 Now that I had all 4 columns in my dataset all that was left to do was change the header names and the 'Sales' data type to currency and 🎉. I had my first clean dataset.
 
 ![](d1_rename_and_type.png)
+
+In the third data set, the structure was pretty similar to the first one except this had two horizontal and two vertical headers
+
+![](d3_dirty_data.png)
+
+Again, the first thing I did was to get rid of the grand totals. The next step was the main difference between the first two datasets and the next two after them. I had to merge the first two columns using a delimiter because of the structure of the data. This helped me unpivot the data properly so I could get 5 different columns.
+
+![](d3_merged.png)
+
+After merging columns 1 and 2, I went through the same steps took when cleaning the first dataset; transposing the data, filling down the 'Segment' column and unpivoting all other columns but the first two.
+
+![](d3_unpivoted.png)
+
