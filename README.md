@@ -8,13 +8,13 @@ Finding datasets to clean was not too difficult after a quick google search led 
 
 In this repository, you will be reading about the steps I took in cleaning 6 of the 8 datasets provided in the Foresight BI website. You can find the excel sheets with both dirty data and my solutions [here](Cleaning_data_project.xlsx)
 
-## Badly Structured Sales Data 1 & 3
+## Badly Structured Sales Datasets 1 & 3
 
-### Badly Structured Sales Data 1
+### Badly Structured Sales Dataset 1
 
 ![Badly Structured Sales Data 1](https://foresightbi.com.ng/wp-content/uploads/2020/05/1.jpg)
 
-### Badly Structured Sales Data 3
+### Badly Structured Sales Dataset 3
 
 ![Badly Structured Sales Data 3](https://foresightbi.com.ng/wp-content/uploads/2020/05/3.jpg)
 
@@ -55,11 +55,24 @@ In the third data set, the structure was pretty similar to the first one except 
 
 ![](d3_dirty_data.png)
 
-Again, the first thing I did was to get rid of the grand totals. The next step was the main difference between the first two datasets and the next two after them. I had to merge the first two columns using a delimiter because of the structure of the data. This helped me unpivot the data properly so I could get 5 different columns.
+Again, the first thing I did was to get rid of the grand totals. The next step was the main difference between the first two datasets and the next two after them. I had to merge the first two columns using (;) as my delimiter because of the structure of the data. This helped me unpivot the data properly so I could get 5 different columns.
 
 ![](d3_merged.png)
 
-After merging columns 1 and 2, I went through the same steps took when cleaning the first dataset; transposing the data, filling down the 'Segment' column and unpivoting all other columns but the first two.
+After merging columns 1 and 2, I went through the same steps took when cleaning the first dataset; transposing the data, promoting headers, filling down the 'Segment' column and unpivoting all other columns but the first two.
 
 ![](d3_unpivoted.png)
 
+After unpivoting, I had to split the 'Attribute' column by the same (;) delimiter I merged the two columns with earlier.
+
+![](d3_split.png)
+
+Now that I had all 5 columns in the right order, all that was left was to rename the columns and assign the right data types to each column and just like that our first four sets of data were cleaned.
+
+![](d3_cleaned.png)
+
+## Jumbled Customer Details Dataset 5 
+
+Instructions 
+> We see this one often when you download or copy something from the web. You should separate the different data categories into separate columns.
+>![](https://foresightbi.com.ng/wp-content/uploads/2020/05/5.jpg)
