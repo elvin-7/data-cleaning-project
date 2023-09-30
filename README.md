@@ -81,6 +81,14 @@ This dataset presented an entirely different problem than the first four had. Al
 
 Again, the first thing I did was getting the data into PowerQuery.
 
+![](d5_custom_column.png)
+
+Next, I started to seperate the data into different columns. To do this, I headed over to the "Add column" tab. In the tab, I selected "Custom Column" in the ribbon.
+
+![](d5_custom_formula.png)
+
+In the dialogue
+
 
 
 
