@@ -76,3 +76,11 @@ Now that I had all 5 columns in the right order, all that was left was to rename
 Instructions 
 > We see this one often when you download or copy something from the web. You should separate the different data categories into separate columns.
 >![](https://foresightbi.com.ng/wp-content/uploads/2020/05/5.jpg)
+
+This dataset presented an entirely different problem than the first four had. All values were in one column with the column headers preceeding the actual values. In the image above, we can see that the clean data has 4 columns (Name, Address, Age and Gender). 
+
+Again, the first thing I did was getting the data into PowerQuery.
+
+
+
+
