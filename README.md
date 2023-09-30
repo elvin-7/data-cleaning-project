@@ -87,7 +87,7 @@ Next, I started to seperate the data into different columns. To do this, I heade
 
 ![](d5_custom_formula.png)
 
-In the dialogue
+In the dialogue box that appears, I put in the name of the first column I was fixing, which in this case was "Name"
 
 
 
